@@ -1,0 +1,38 @@
+.view-products-wapper .view-products{
+    background-color: antiquewhite;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+}
+.view-products-wapper .btn-cart {
+    display: block;
+    background-color: antiquewhite;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: thistle 1px solid;
+    width: 200px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.view-products-wapper .btn-cart:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.view-products-wapper .add-to-cart {
+    margin: 0;
+}
+.view-products-wapper .product-img{
+    border: thistle 1px solid;
+}
+.view-products-wapper{
+    height: 100vh;
+    background-color: cadetblue;
+}

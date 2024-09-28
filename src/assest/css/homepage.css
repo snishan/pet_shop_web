@@ -1,0 +1,117 @@
+.topnav {
+  height: 75px;
+  top: 0;
+  position: sticky;
+  background: #fff;
+  margin-bottom: 20px;
+  border-bottom: 3px solid deepskyblue;
+  z-index: 2;
+}
+
+#logo {
+  height: 60px;
+  margin: 7px 10px;
+}
+
+.search-form {
+  margin-top: 9px;
+  margin-left: 30px;
+  margin-bottom: 9px;
+  padding-right: 10vw;
+  padding-left: 5px;
+  border: 1px solid deepskyblue !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  box-shadow: none !important;
+  width: 90%;
+  outline: none;
+}
+
+.input-text {
+  background: deepskyblue;
+  border: 6px solid deepskyblue;
+  margin: 9px 10px 9px 0;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  cursor: pointer;
+}
+
+.search-line {
+  display: inline-flex;
+  width: 60%;
+}
+
+.fa-search {
+  color: white;
+  margin-top: 4px;
+  padding: 10px;
+}
+
+.account-menu {
+  width: 40%;
+  height: 57px;
+  float: right;
+  margin-top: 10px;
+}
+
+.account-menu ul {
+  display: inline-flex;
+  float: right;
+}
+
+.account-menu ul li {
+  border-left: 1px solid white;
+  list-style-type: none;
+  padding: 15px 35px;
+  /*gia mikrotera mono // isws prin htan 3.5vw*/
+  text-align: center;
+  background-color: deepskyblue;
+  cursor: pointer;
+}
+
+.account-menu ul li a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-shopping-cart {
+  margin-right: 5px;
+}
+
+/* banner style */
+.swiper-pagination-bullet {
+  border: 1px solid var(--bs-body-color);
+  background-color: transparent;
+  opacity: 1;
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 15px));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 15px));
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: var(--bs-body-color);
+  background: var(--bs-body-color);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 8px);
+}
+
+
+/* category style */
+.category-icon {
+  color: #DEAD6F99;
+  font-size: 100px;
+  transition: all 0.3s ease-in;
+
+}
+
+a.categories-item:hover iconify-icon.category-icon {
+  color: #DEAD6F;
+}

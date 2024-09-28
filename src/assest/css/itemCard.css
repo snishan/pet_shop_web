@@ -1,0 +1,38 @@
+
+#itemCard .card {
+    --bs-card-inner-border-radius: none;
+    --bs-card-bg: transparent;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  #itemCard a.btn-cart {
+    border-radius: 0.25rem;
+    border: 1px solid rgba(65, 64, 62, 0.20);
+    cursor: pointer;
+  }
+  
+  #itemCard  a.btn-wishlist {
+  
+    border-radius: 0.25rem;
+    border: 1px solid rgba(65, 64, 62, 0.20);
+  }
+  #itemCard  .swiper-slide{
+    width: 25%;
+    margin: 10px;
+  }
+  #itemCard .card-title, .add-to-cart{
+    color: #41403E;
+  }
+  #itemCard .rating svg{
+    margin: 10px 0px 10px 0px;
+    color: rgb(222 173 111);
+  }
+  #itemCard .price{
+    color: rgb(222 173 111);
+  }
+  #itemCard .btn-wishlist svg{
+    color: #41403E;
+  }
+  

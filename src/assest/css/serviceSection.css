@@ -1,0 +1,21 @@
+.service-icon {
+    font-size: 70px;
+    border-radius: 3.125rem;
+    border: 1px solid #D9D9D8;
+    padding: 1.25rem;
+    color: rgb(222 173 111);
+  }
+  
+ #service .card {
+    --bs-card-inner-border-radius: none;
+    --bs-card-bg: transparent;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+}
+.blog-paragraph{
+    color: #908F8D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+}

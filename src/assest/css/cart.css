@@ -1,0 +1,102 @@
+.cart-page  .ui-w-40 {
+    width: 40px !important;
+    height: auto;
+}
+
+.cart-page .card{
+    box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);    
+}
+
+.cart-page  .ui-product-color {
+    display: inline-block;
+    overflow: hidden;
+    margin: .144em;
+    width: .875rem;
+    height: .875rem;
+    border-radius: 10rem;
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset;
+    vertical-align: middle;
+}
+.cart-page .bg-black{
+    background: #000;
+}
+.bg-change{
+    background-color: #e81e2c;
+}
+.w-400{
+    width: 400px;
+}
+.w-100{
+    width: 100px;
+}
+.w-120{
+    width: 120px;
+}
+.w-40{
+    width: 40px;
+}
+#cart-form{
+    max-width: 1100px !important;
+    width: 1100px !important;
+    
+}
+#cart-form .modal-body{
+    max-height: 600px !important;
+    overflow: auto;
+}
+.cart-img{
+    width: 70px;
+    height: 70px;
+}
+table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    vertical-align: middle;
+  }
+.delete-icon{
+    font-size: 23px;
+    color: #e81e2c;
+    cursor: pointer;
+    margin-left: 12px;
+}
+.save-icon{
+    color: green;
+    font-size: 23px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.count{
+    width: 100px;
+}
+.increase-count{
+    font-size: 24px;
+    padding: 0px 10px;
+    cursor: pointer;
+    color: red;
+}
+.plus-icon{
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.plus-icon.disable{
+    pointer-events: none;
+    opacity: 0.5;
+}
+.minus-icon{
+    width: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.minus-icon.disable{
+    pointer-events: none;
+    opacity: 0.5;
+}
+.total-balance{
+    text-align: end;
+    margin-right: 6%;
+    font-weight: 600;
+}

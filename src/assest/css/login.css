@@ -1,0 +1,28 @@
+.btn-color{
+    background-color: #0e1c36;
+    color: #fff;
+    
+  }
+  
+  .profile-image-pic{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+  
+  
+  
+  .cardbody-color{
+    background-color: #ebf2fa;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  #login-form .modal-body{
+    background-color: #ebf2fa;
+  }
+  #login-form button:hover{
+    background-color: #0e1c36;
+    color: #fff;
+  }

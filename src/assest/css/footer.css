@@ -1,0 +1,25 @@
+.footer-wapper{
+  background-color: rgb(249, 243, 236);  
+  height: 300px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.footer-copy-right{
+    position: relative;
+    bottom: 0px;
+    margin: auto;
+    text-align: center;
+    z-index: 999;
+    font-size: smaller;
+}
+.send-icon{
+    cursor: pointer;
+    font-size: 30px;
+    /* padding: 14px; */
+    border-radius: 4.375rem;
+    color: #FFF;
+    border: 1px solid #DEAD6F;
+    background: #DEAD6F;
+    z-index: 999;
+}
